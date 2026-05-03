@@ -1,0 +1,11 @@
+node_modules
+.git
+.gitignore
+README.md
+SKILL.md
+GUIDE.md
+AGENTS.md
+LinkLists.txt
+npm-debug.log
+.env.local
+.env.*.local
