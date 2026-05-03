@@ -20,7 +20,61 @@ export const userConfig = {
     "Theatrical Acting", "Improvisation Dialog", "Athletic Movements", "Ghost Make-up", "Teamwork", "Adaptability", "Communication Skills", "F&B Service", "Swimming Coach"
   ],
   media: [],
-  gallery: [],
+  gallery: {
+    title: "Koleksi Foto & Video",
+    items: [
+      {
+        id: "portrait-1",
+        type: "image",
+        url: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=600&fit=crop",
+        alt: "Portrait 1"
+      },
+      {
+        id: "portrait-2",
+        type: "image",
+        url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop",
+        alt: "Portrait 2"
+      },
+      {
+        id: "portrait-3",
+        type: "image",
+        url: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=600&fit=crop",
+        alt: "Portrait 3"
+      },
+      {
+        id: "portrait-4",
+        type: "image",
+        url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop",
+        alt: "Portrait 4"
+      },
+      {
+        id: "landscape-1",
+        type: "image",
+        url: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600&h=400&fit=crop",
+        alt: "Landscape 1"
+      },
+      {
+        id: "landscape-2",
+        type: "image",
+        url: "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?w=600&h=400&fit=crop",
+        alt: "Landscape 2"
+      },
+      {
+        id: "landscape-3",
+        type: "image",
+        url: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600&h=400&fit=crop",
+        alt: "Landscape 3"
+      },
+      {
+        id: "landscape-4",
+        type: "image",
+        url: "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?w=600&h=400&fit=crop",
+        alt: "Landscape 4"
+      }
+    ],
+    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-library/sample/big_buck_bunny.mp4",
+    videoAlt: "Profile Video"
+  },
   projects: [
     {
       id: "proj-1",

@@ -4,12 +4,13 @@ import { userConfig } from './config/userConfig';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import AboutHero from './components/sections/AboutHero';
+import GallerySection from './components/sections/GallerySection';
 import ProjectsGrid from './components/sections/ProjectsGrid';
 import ContactCard from './components/sections/ContactCard';
 import SkillsCompetencies from './components/sections/SkillsCompetencies';
 
 function App() {
-  const { personal, projects, contact, skills } = userConfig;
+  const { personal, projects, contact, skills, gallery } = userConfig;
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-azure selection:text-slate-900 w-full overflow-x-hidden">
@@ -23,6 +24,11 @@ function App() {
           <div id="about" className="w-full">
              <AboutHero config={personal} />
           </div>
+
+          {/* Gallery Section */}
+          <section className="w-full">
+            <GallerySection galleryConfig={gallery} />
+          </section>
 
           {/* Middle Section: Projects */}
           <section id="projects" className="pt-12 md:pt-8 w-full">
