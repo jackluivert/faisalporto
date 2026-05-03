@@ -13,7 +13,7 @@ function App() {
   const { personal, projects, contact, skills, gallery } = userConfig;
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-azure selection:text-slate-900 w-full overflow-x-hidden">
+    <div className="min-h-screen bg-slate-100 text-slate-900 font-sans selection:bg-azure selection:text-slate-900 w-full overflow-x-hidden">
       
       <Header navItems={userConfig.nav} name={personal.name} />
 
