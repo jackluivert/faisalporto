@@ -69,7 +69,11 @@ const ContactCard = ({ contactConfig }) => {
               className="p-3 text-azure-light hover:text-white hover:bg-white/10 rounded-full transition-colors flex items-center gap-2"
               aria-label={social.name}
             >
-              <Icon size={24} />
+              {social.iconUrl ? (
+                <img src={social.iconUrl} alt={`${social.name} icon`} className="w-6 h-6 object-contain" />
+              ) : (
+                <Icon size={24} />
+              )}
             </a>
           );
         })}
