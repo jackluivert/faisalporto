@@ -111,9 +111,9 @@ export const userConfig = {
     phone: "+62895351370454",
     location: "West Jakarta, Indonesia",
     socials: [
-      { name: "Instagram", url: "https://www.instagram.com/sal_fai7?igsh=Mmg4ejRoMXFmODl5", iconName: "Instagram" },
-      { name: "TikTok", url: "https://www.tiktok.com/@sal_fai7?_r=1&_t=ZS-966YPQ2c1XZ", iconName: "Music" },
-      { name: "WhatsApp", url: "https://wa.me/62895351370454", iconName: "MessageCircle" }
+      { name: "Instagram", url: "https://www.instagram.com/sal_fai7?igsh=Mmg4ejRoMXFmODl5", iconName: "Instagram", iconUrl: new URL('../assets/instagram.png', import.meta.url).href },
+      { name: "TikTok", url: "https://www.tiktok.com/@sal_fai7?_r=1&_t=ZS-966YPQ2c1XZ", iconName: "Music", iconUrl: new URL('../assets/tiktok.png', import.meta.url).href },
+      { name: "WhatsApp", url: "https://wa.me/62895351370454",  iconName: "MessageCircle", iconUrl: new URL('../assets/whatsapp.png', import.meta.url).href }
     ],
   },
   footer: {
