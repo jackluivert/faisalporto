@@ -21,59 +21,60 @@ export const userConfig = {
   ],
   media: [],
   gallery: {
-    title: "Koleksi Foto & Video",
+    title: "Foto dan Video Profile",
+    measurements: "Heights: 175 cm | Weight: 61 kg | Shirts: M to L | Pants: 32 | Shoes: 45",
     items: [
       {
-        id: "portrait-1",
+        id: "foto1",
         type: "image",
-        url: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=600&fit=crop",
-        alt: "Portrait 1"
+        url: new URL('../assets/foto1.jpeg', import.meta.url).href,
+        alt: "Foto 1"
       },
       {
-        id: "portrait-2",
+        id: "foto2",
         type: "image",
-        url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop",
-        alt: "Portrait 2"
+        url: new URL('../assets/foto2.jpeg', import.meta.url).href,
+        alt: "Foto 2"
       },
       {
-        id: "portrait-3",
+        id: "foto3",
         type: "image",
-        url: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=600&fit=crop",
-        alt: "Portrait 3"
+        url: new URL('../assets/foto3.jpeg', import.meta.url).href,
+        alt: "Foto 3"
       },
       {
-        id: "portrait-4",
+        id: "foto4",
         type: "image",
-        url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop",
-        alt: "Portrait 4"
+        url: new URL('../assets/foto4.jpeg', import.meta.url).href,
+        alt: "Foto 4"
       },
       {
-        id: "landscape-1",
+        id: "foto5",
         type: "image",
-        url: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600&h=400&fit=crop",
-        alt: "Landscape 1"
+        url: new URL('../assets/foto5.jpeg', import.meta.url).href,
+        alt: "Foto 5"
       },
       {
-        id: "landscape-2",
+        id: "foto6",
         type: "image",
-        url: "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?w=600&h=400&fit=crop",
-        alt: "Landscape 2"
+        url: new URL('../assets/foto6.jpeg', import.meta.url).href,
+        alt: "Foto 6"
       },
       {
-        id: "landscape-3",
+        id: "foto7",
         type: "image",
-        url: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600&h=400&fit=crop",
-        alt: "Landscape 3"
+        url: new URL('../assets/foto7.jpeg', import.meta.url).href,
+        alt: "Foto 7"
       },
       {
-        id: "landscape-4",
+        id: "foto8",
         type: "image",
-        url: "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?w=600&h=400&fit=crop",
-        alt: "Landscape 4"
+        url: new URL('../assets/foto8.jpeg', import.meta.url).href,
+        alt: "Foto 8"
       }
     ],
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-library/sample/big_buck_bunny.mp4",
-    videoAlt: "Profile Video"
+    videoUrl: new URL('../assets/video.mp4', import.meta.url).href,
+    videoAlt: "Video"
   },
   projects: [
     {
@@ -100,7 +101,7 @@ export const userConfig = {
       description: "Dynamic stage presence bringing worlds to life.",
       role: "Supporting Cast",
       category: "Theater",
-      thumbnail: "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?w=400&h=300&fit=crop",
+      thumbnail: new URL('../assets/teater.png', import.meta.url).href,
       link: "https://drive.google.com"
     }
   ],
@@ -110,7 +111,8 @@ export const userConfig = {
     phone: "+62895351370454",
     location: "West Jakarta, Indonesia",
     socials: [
-      { name: "Instagram", url: "https://instagram.com", iconName: "Instagram" },
+      { name: "Instagram", url: "https://www.instagram.com/sal_fai7?igsh=Mmg4ejRoMXFmODl5", iconName: "Instagram" },
+      { name: "TikTok", url: "https://www.tiktok.com/@sal_fai7?_r=1&_t=ZS-966YPQ2c1XZ", iconName: "Music" },
       { name: "WhatsApp", url: "https://wa.me/62895351370454", iconName: "MessageCircle" }
     ],
   },

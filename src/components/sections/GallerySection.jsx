@@ -10,7 +10,8 @@ export default function GallerySection({ galleryConfig }) {
 
   const items = galleryConfig.items || [];
   const videoUrl = galleryConfig.videoUrl;
-  const title = galleryConfig.title || "Koleksi Foto & Video";
+  const title = galleryConfig.title || "Foto dan Video Profile";
+  const measurements = galleryConfig.measurements;
 
   // Split items: first 4 are portraits, next 4 are landscapes
   const portraits = items.slice(0, 4);
@@ -23,6 +24,11 @@ export default function GallerySection({ galleryConfig }) {
         <h2 className="text-3xl md:text-4xl font-bold text-slate-800 tracking-tight text-center">
           {title}
         </h2>
+        {measurements && (
+          <p className="text-sm md:text-base text-slate-600 text-center mt-4">
+            {measurements}
+          </p>
+        )}
       </div>
 
       {/* Gallery Grid Container */}
@@ -56,7 +62,7 @@ export default function GallerySection({ galleryConfig }) {
                 <img
                   src={item.url}
                   alt={item.alt}
-                  className="w-full h-full object-cover aspect-[4/3] group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover aspect-[4/3] group-hover:scale-105 transition-transform duration-300 object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
@@ -93,7 +99,7 @@ export default function GallerySection({ galleryConfig }) {
                 <img
                   src={item.url}
                   alt={item.alt}
-                  className="w-full h-full object-cover aspect-[4/3] group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover aspect-[4/3] group-hover:scale-105 transition-transform duration-300 object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
