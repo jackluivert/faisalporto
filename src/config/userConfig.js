@@ -102,7 +102,7 @@ export const userConfig = {
       role: "Model",
       category: "Photo Project",
       thumbnail: new URL('../assets/modelling.jpg', import.meta.url).href,
-      link: "https://drive.google.com"
+      link: "https://drive.google.com/drive/folders/1eX7ilOgEw1mhyT0xyUqoxF9dj6TDaDVH"
     }
   ],
   contact: {
