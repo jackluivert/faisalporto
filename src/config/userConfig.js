@@ -79,29 +79,29 @@ export const userConfig = {
   projects: [
     {
       id: "proj-1",
-      title: "Short Movie",
-      description: "A profound exploration into dramatic characterization.",
-      role: "Lead",
-      category: "Acting",
-      thumbnail: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&h=300&fit=crop",
-      link: "https://drive.google.com"
+      title: "Acting",
+      description: "Dynamic stage presence bringing worlds to life.",
+      role: "Lead and Side Character",
+      category: "Short Movie and Theater",
+      thumbnail: new URL('../assets/acting.png', import.meta.url).href,
+      link: "https://drive.google.com/drive/folders/1o3BW31Du7A-A_k7sLUosak26oIHejZPl"
     },
     {
       id: "proj-2",
-      title: "Brand Talent",
+      title: "Brand Promotion",
       description: "Representing high-end fashion and commercial brands.",
-      role: "Model",
-      category: "Modeling",
-      thumbnail: new URL('../assets/model.jpg', import.meta.url).href,
-      link: "https://drive.google.com"
+      role: "Talent",
+      category: "Brand Talent Video",
+      thumbnail: new URL('../assets/brandpromotion.png', import.meta.url).href,
+      link: "https://drive.google.com/drive/folders/1bjh1w-pjCQjXyIuwD1oZaFxL-fLm5Aun"
     },
     {
       id: "proj-3",
-      title: "Theatrical NPC",
-      description: "Dynamic stage presence bringing worlds to life.",
-      role: "Supporting Cast",
-      category: "Theater",
-      thumbnail: new URL('../assets/teater.png', import.meta.url).href,
+      title: "Modelling",
+      description: "A profound exploration into dramatic characterization.",
+      role: "Model",
+      category: "Photo Project",
+      thumbnail: new URL('../assets/modelling.jpg', import.meta.url).href,
       link: "https://drive.google.com"
     }
   ],

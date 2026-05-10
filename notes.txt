@@ -1,12 +1,19 @@
+Pada featured projects, revisinya:
+yang kiri :
+acting | short movie and theater | role: lead and side character
+Dynamic stage presence bringing worlds to life.
 
-link Instagram : https://www.instagram.com/sal_fai7?igsh=Mmg4ejRoMXFmODl5
-link TikTok : https://www.tiktok.com/@sal_fai7?_r=1&_t=ZS-966YPQ2c1XZ
-instagram dan tiktok di kotak grey bawah
+tengah: 
+brand promotion | brand talent video | role : talent
+Representing high-end fashion and commercial brands.
 
-sub judul (ADD BELOW KOLEKSI FOTO & VIDEO)
-heights: 175 cm weight: 61 kg shirts : M to L pants: 32 shoes: 45
+kanan:
+modelling | photo project | role: model
+A profound exploration into dramatic characterization
 
-Judul koleksi foto & video diganti jadi "Foto dan Video Profile"
-Make the class that forces to fill and center if the image is vertical, apply it to the 5th and 6th photos
 
-add video.mp4 as the video below the photos in the "Foto dan Video Profile" section.
+link acting folder
+https://drive.google.com/drive/folders/1o3BW31Du7A-A_k7sLUosak26oIHejZPl
+
+link brand talent 
+https://drive.google.com/drive/folders/1bjh1w-pjCQjXyIuwD1oZaFxL-fLm5Aun
